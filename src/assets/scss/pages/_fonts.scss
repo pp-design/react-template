@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'oit';
+  src: url('../../fonts/oit-Regular.ttf');
+  src: url('../../fonts/oit-Regular.woff') format('woff'),
+    url('../../fonts/oit-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.font-oit {
+  font-family: 'oit';
+}

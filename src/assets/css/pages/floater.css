@@ -1,0 +1,130 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'Speed';
+  src: url("../../fonts/Speed Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Speed';
+  src: url("../../fonts/Speed Regular.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Speed';
+  src: url("../../fonts/Speed Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.floater-font {
+  font-family: "Speed","Roboto","PingFangSC-Light","microsoft yahei ui","microsoft yahei","sans-serif";
+}
+
+.floater-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* aligns on vertical for column */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.floater-menu-content {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  width: 250px;
+  height: 250px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 25px;
+}
+
+.floater-menu-content.open {
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: -webkit-transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+  background: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.floater-menu-item {
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.floater-menu-item > label {
+  font-size: 14px;
+  font-family: "Product Sans", Arial, Helvetica, sans-serif;
+}
+
+.floater-ball {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+  cursor: pointer;
+  top: 0px;
+  left: 0px;
+  border-radius: 30%;
+  padding: 6px;
+  -ms-touch-action: none;
+      touch-action: none;
+  cursor: -webkit-grab;
+  cursor: grab;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: -webkit-transform 0.1s ease;
+  transition: -webkit-transform 0.1s ease;
+  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, -webkit-transform 0.1s ease;
+}
+
+.floater-ball > div {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-menu-account-businessLogin">
+      <rect width="16" height="16"/>
+    </clipPath>
+  </defs>
+  <g id="menu-account-businessLogin" clip-path="url(#clip-menu-account-businessLogin)">
+    <g id="分组">
+      <rect id="Rectangle_Copy_3" data-name="Rectangle Copy 3" width="16" height="16" fill="#888" opacity="0"/>
+      <path id="合并形状" d="M11.733,15a4.088,4.088,0,0,1-2.849-2.061,3.657,3.657,0,0,1-.418-1.486V8H15v3.453a3.646,3.646,0,0,1-.417,1.486A4.088,4.088,0,0,1,11.734,15Zm-1.262-3.546c0,.025.013.069.026.129a1.853,1.853,0,0,0,.267.612,1.972,1.972,0,0,0,.968.72,1.962,1.962,0,0,0,.967-.72,1.834,1.834,0,0,0,.267-.612c.011-.045.018-.081.023-.106L13,11.444,13,10H10.466v1.434h0A.2.2,0,0,1,10.472,11.454ZM8.366,14H3V12H7.514a4.725,4.725,0,0,0,.774,1.888q.038.057.078.111v0Zm-.9-4H0V0H14V7H12V2H2V8H7.466v2h0Z" transform="translate(1 1)" fill="#888"/>
+    </g>
+  </g>
+</svg>

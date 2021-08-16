@@ -1,0 +1,406 @@
+@charset "utf-8";
+.gamedetail-header .tea-layout__header-title .tea-h2 {
+  height: auto;
+}
+
+.gamedetail-header .tea-justify-grid {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.gamedetail-header-actionpanel {
+  margin-top: 30px;
+}
+
+.gameinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gameinfo-logo {
+  max-height: 60px;
+}
+
+.gameinfo-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 25px;
+}
+
+.gameinfo-title {
+  margin-right: 12px;
+  line-height: 24px;
+  font-weight: bold;
+  height: 28px;
+}
+
+.gameinfo-tags .tea-tag {
+  border-radius: 20px;
+  color: #444;
+}
+
+.gameinfo-hd {
+  margin-right: 20px;
+  height: 60px;
+}
+
+.gameinfo-bd {
+  font-weight: normal;
+}
+
+.overview-appselect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.overview-appselect .databrain__region-item-icon {
+  margin-left: 4px;
+}
+
+.overview-actionpanel-iconbtn, .overview-actionpanel-favorite, .overview-actionpanel-download {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-left: 10px;
+}
+
+.overview-table .databrain__gameitem-logo {
+  border-radius: 6px;
+}
+
+.overview-table .databrain__gameitem-region {
+  width: 24px;
+  height: 16px;
+}
+
+.overview-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: -10px;
+}
+
+.overview-info-hd, .overview-info-bd {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.overview-info-hd {
+  width: 60%;
+}
+
+.overview-info-bd {
+  width: 40%;
+}
+
+.overview-info .tea-card__body {
+  padding: 16px;
+}
+
+.overview-timeline {
+  height: 100%;
+}
+
+.overview-timeline .tea-card__body {
+  padding-right: 0;
+}
+
+.overview-timeline .tea-card__content {
+  max-height: 678px;
+  overflow-y: auto;
+}
+
+.overview-timeline .tea-step {
+  padding-right: 16px;
+}
+
+.overview-desc .tea-card__body {
+  padding-right: 0;
+}
+
+.overview-desc .tea-card__content {
+  height: 161px;
+  overflow-y: auto;
+  padding-right: 16px;
+}
+
+.overview-desc .tea-step {
+  padding-right: 16px;
+}
+
+.overview-screenshots {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.overview-screenshots .tea-card {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.overview-similargame {
+  margin-top: 20px;
+}
+
+.overview-similargame .tea-card__body {
+  padding: 16px;
+}
+
+.overview-similargame .tea-card__title {
+  margin-bottom: 16px;
+}
+
+.overview-similargame .databrain__gameitem-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overview-similargame .databrain__gameitem-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.overview-similargame .databrain__gameitem-region {
+  width: 16px;
+  height: 10px;
+  margin-right: 6px;
+}
+
+.screenshot .tea-card__body {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.screenshot .tea-card__title {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 16px;
+}
+
+.screenshot .tea-card__content {
+  max-height: 360px;
+  overflow: hidden;
+}
+
+.screenshot-viewer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 360px;
+  position: relative;
+}
+
+.screenshot-viewer > img {
+  display: block;
+  max-width: 100%;
+  max-height: 360px;
+}
+
+.screenshot-viewer .video-react {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.screenshot-thumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-width: auto;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: auto;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.screenshot-thumb {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  position: relative;
+}
+
+.screenshot-thumb--active {
+  border: 1px solid #0076ff;
+}
+
+.screenshot-thumb > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.screenshot-thumb-play {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.screenshot-thumb-play::after {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background: url(../../svg/playicon.svg) no-repeat 0 0;
+}
+
+.similargame-flexbox {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: -10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.similargame-flexbox-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.performancesummay-operation .databrain__date-btn {
+  height: 30px;
+}
+
+.performancesummay-items .tea-card {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.performancesummay-items .tea-card__body {
+  padding: 10px;
+}
+
+.performancesummay-items .tea-card__title {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.performancesummay-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 78px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.performancesummay-item-operation {
+  font-size: 12px;
+}
+
+.performancesummay-item-number {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.performancesummay-item-trend .tea-icon:before {
+  color: inherit;
+}
+
+.performancesummay-item-hd {
+  width: 116px;
+  margin-right: 10px;
+}
+
+.performancesummay-item-bd {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.performancesummay-item-bd .tea-action-state {
+  width: 100%;
+  text-align: center;
+}
+
+.performancesummay-item-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

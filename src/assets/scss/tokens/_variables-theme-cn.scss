@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+$prefix: 'tea-' !default;
+
+$color-primary-0:#E5F0FF;
+$color-primary-1:#97C7FF;
+$color-primary-2:#8EC8FF;
+$color-primary-3:#50ADFF;
+$color-primary-4:#0090FF;
+$color-primary-5:#0076FF;
+$color-primary-6:#0061E1;
+$color-primary-7:#0051B9;
+$color-primary-8:#003B80;
+$color-primary-9:#212C53;
+    
+$color-error-0:#FCECEC;
+$color-error-1:#F6B5B5;
+$color-error-2:#f2a2a2;
+$color-error-3:#ee8383;
+$color-error-4:#e96464;
+$color-error-5:#e54545;
+$color-error-6:#cc3842;
+$color-error-7:#b42b3f;
+$color-error-8:#B43537;
+$color-error-9:#831238;
+
+$color-success-0:#E6F8EE;
+$color-success-1:#9CE4BC;
+$color-success-2:#84dfad;
+$color-success-3:#5cd492;
+$color-success-4:#33ca76;
+$color-success-5:#0abf5b;
+$color-success-6:#09a755;
+$color-success-7:#078f50;
+$color-success-8:#007E3B;
+$color-success-9:#055f44;
+
+$color-warning-0:#FFF4E3;
+$color-warning-1:#FFD18B;
+$color-warning-2:#ffce7f;
+$color-warning-3:#ffbe55;
+$color-warning-4:#ffad2a;
+$color-warning-5:#ff9d00;
+$color-warning-6:#df7f00;
+$color-warning-7:#bf6000;
+$color-warning-8:#C07400;
+$color-warning-9:#802400;
+
+// Color
+
+$color-normal: #444 !default;
+$color-label : #888 !default;
+$color-weak  : #bbb !default;
+$color-strong: #000 !default;
+// $color-primary: #9D00FF !default;
+$color-primary: #0076ff!default;
+$color-success: #0abf5b !default;
+$color-danger : #e54545 !default;
+$color-warning: #ff9d00 !default;
+$color-error  : #e54545 !default;
+
+// Font-size
+
+// Font-width
+
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+// border
+
+$border-width:1px !default;
+$border-color:#ddd !default;
+
+// $color-brand : #9D00FF !default;
+$color-brand : #0076ff!default;
+$color-text-1: #000 !default;
+$color-text-2: #444 !default;
+$color-text-3: #888 !default;
+$color-text-4: #bbb !default;
+
+$font-size-base: 12px !default;
+$font-size-m   : 14px !default;
+$font-size-l   : 16px !default;
+$font-size-xl  : 20px !default;
+$font-size-xxl : 24px !default;
+$font-size-xxxl: 36px !default;
+
+$color-line:#ddd !default;
+$color-line-1: #ddd !default;
+$color-line-2: #bbb !default;
+$color-line-3: #e5e5e5 !default;
+$color-line-4: #888 !default;
+
+$color-fill-1: #212C53 !default;
+$color-fill-2: #f2f3f5 !default;  // hover #e5e5e5;
+$color-fill-3: #f7f7f7 !default;
+$color-fill-4: #fff !default;
+
+//间距
+$s-base: 4px !default;
+$s-0   : $s-base*0 !default;
+$s-1   : $s-base*1 !default;
+$s-2   : $s-base*2 !default;
+$s-3   : $s-base*3 !default;
+$s-4   : $s-base*4 !default;
+$s-5   : $s-base*5 !default;
+$s-6   : $s-base*6 !default;
+$mask-color:rgba(0,0,0,0.6) !default;
+$darken-amount-hover : 5% !default;
+$darken-amount-active: 10% !default;
+$shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);
+

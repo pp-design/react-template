@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+.infinite {
+  /* common */
+  /* 通用 */
+  /* 鉴权方式 */
+  /* 模板 */
+  /* 信息 */
+  /* 频率 */
+  /* 个性化 */
+  /* 法律协议 */
+  /* 登陆用户限制 */
+}
+
+.infinite-title label {
+  color: #000;
+}
+
+.infinite-title.title-bold {
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.infinite-title.title-bold label {
+  font-size: 14px;
+}
+
+.infinite .tea-card__body {
+  overflow: hidden;
+}
+
+.infinite-card:nth-child(3) .tea-card__body {
+  padding-bottom: 0px;
+}
+
+.infinite .tea-bubble__inner {
+  background-color: #000;
+  color: #fff;
+}
+
+.infinite-justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+  color: #888;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infinite-justify-required {
+  color: #e54545;
+  font-size: 16px;
+  margin-left: 4px;
+  /* height: 6px;*/
+  width: 6px;
+  /* display: flex;
+      align-items: center; */
+}
+
+.infinite-justify .tea-icon {
+  margin-left: 6px;
+}
+
+.infinite .tea-dropdown__value {
+  position: relative;
+}
+
+.infinite .tea-dropdown__value::before {
+  content: "";
+  height: calc(100% - 12px);
+  width: 1px;
+  background-color: #dddddd;
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: 0;
+}
+
+.infinite-universal {
+  /* .tea-input::placeholder {
+      color: #000;
+    } */
+}
+
+.infinite-universal .tea-form__item {
+  display: block;
+}
+
+.infinite-universal-name {
+  padding-top: 4px;
+}
+
+.infinite-universal-name .tea-input-group {
+  white-space: nowrap;
+}
+
+.infinite-universal-name .tea-input-group__addon {
+  margin-left: 0px;
+}
+
+.infinite-universal-name .tea-input-group__text {
+  background-color: #fff;
+  border: none;
+  color: #888;
+}
+
+.infinite-universal-name .tea-form__controls {
+  padding-top: 0px;
+}
+
+.infinite-universal-name--placeholder {
+  font-size: 12px;
+  color: #bbb;
+  max-width: 430px;
+  margin-top: 5px;
+}
+
+.infinite-authentication .tea-form__controls {
+  white-space: nowrap;
+}
+
+.infinite-authentication-group .tea-icon {
+  margin-left: 6px;
+}
+
+.infinite-authentication-item {
+  padding-top: 10px;
+}
+
+.infinite-authentication-text {
+  margin-left: 10px;
+  color: #888 !important;
+}
+
+.infinite-template-select .tea-dropdown__header {
+  width: 310px;
+}
+
+.infinite-template .tea-form__label label {
+  white-space: nowrap;
+}
+
+.infinite-template .tea-form__controls {
+  padding-top: 0px;
+}
+
+.infinite-template-copy {
+  font-size: 12px;
+}
+
+.infinite-template-copy .tea-btn {
+  margin-left: 20px;
+  width: 64px;
+  height: 30px;
+  min-width: 0;
+}
+
+.infinite-template-text {
+  font-size: 12px;
+  color: #bbb;
+  white-space: nowrap;
+}
+
+.infinite-segment {
+  margin: 20px 0px;
+}
+
+.infinite-tabs {
+  position: relative;
+  height: 300px;
+}
+
+.infinite-tabs::before {
+  content: "";
+  width: calc(100% + 40px);
+  height: 1px;
+  background-color: #ddd;
+  position: absolute;
+  top: 0;
+  left: -20px;
+}
+
+.infinite-tabs .tea-form__item {
+  display: block;
+}
+
+.infinite-tabs .tea-tabs__tabbar {
+  width: 92px;
+  height: 100%;
+  display: block;
+}
+
+.infinite-tabs .tea-tabs__tabbar::before {
+  background-color: #ddd;
+}
+
+.infinite-tabs .tea-tabs__tabbar .tea-tabs__tab {
+  text-align: left;
+}
+
+.infinite-tabs .tea-tabs__tabbar .tea-tabs__tab.is-active {
+  font-weight: 400;
+  color: #0076ff !important;
+}
+
+.infinite-tabs .tea-tabs__tabbar .tea-tabs__tab::after {
+  display: none;
+}
+
+.infinite-tabs .tea-tabs__tabitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.infinite-tabs-form {
+  padding: 20px 0px;
+}
+
+.infinite-tabs-form--plug {
+  width: 968px;
+  height: 300px;
+  background-color: #ddd;
+  /* margin-bottom: 20px; */
+}
+
+.infinite-tabs-form--send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.infinite-tabs-form--send .tea-form__label {
+  display: none;
+}
+
+.infinite-tabs-form--send .tea-btn {
+  margin-left: 20px;
+}
+
+.infinite-info-user .tea-form-check {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.infinite-frequency .infinite-justify {
+  color: #000;
+}
+
+.infinite-sign {
+  padding-top: 10px;
+}
+
+.infinite-sign-portrait {
+  min-width: 1080px;
+  height: 565px;
+  background-color: #fafafa;
+  margin: 10px auto;
+}
+
+.infinite-sign-portrait .portrait-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infinite-sign-portrait .portrait-img-preview {
+  width: 420px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.infinite-sign-portrait .portrait-img-demo {
+  width: 420px;
+  height: 326px;
+}
+
+.infinite-sign-horizontal .tea-btn {
+  margin: 0 20px;
+}
+
+.infinite-sign-horizontal .horizontal-img {
+  min-width: 1080px;
+  height: 360px;
+  background-color: #fafafa;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infinite-sign-horizontal .horizontal-img-preview {
+  width: 320px;
+  height: 320px;
+}
+
+.infinite-sign-horizontal .horizontal-img-demo {
+  width: 380px;
+  height: 320px;
+}
+
+.infinite-personalise-select {
+  width: 309px;
+}
+
+.infinite-legalagreement .tea-input {
+  width: 300px;
+}
+
+.infinite-login {
+  white-space: nowrap;
+}
+
+.infinite-login-textarea {
+  width: 342px;
+  height: 140px;
+  display: block;
+  margin: 20px 0px;
+}
+
+.infinite-login label {
+  color: #000;
+}
+
+.infinite-login .tea-fz-reset {
+  color: #888;
+}
+
+/* .infinite-bubble{
+  width: 100%;
+  &-text{
+    white-space: nowrap;
+  }
+} */
